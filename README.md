@@ -21,14 +21,23 @@ It features a functional Proof-of-Work system, transaction signing with RSA, a m
 
 ## Folder Structure
 Local-POW-Blockchain/
+
 ├── models/ # Block, Blockchain, Transaction, Wallet
+
 ├── persistence/ # blockchainPersistence, mempoolPersistence
+
 ├── public/ # Frontend files (HTML, JS, CSS)
+
 │ ├── index.html
+
 │ ├── main.js
+
 │ └── style.css
+
 ├── server.js # Express backend server
+
 ├── sign.js # Script to sign messages manually
+
 
 
 ---
