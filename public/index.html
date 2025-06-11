@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>uemfCoin Blockchain UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> uemfCoin Blockchain</h1>
+
+  <section>
+    <h2>Blocs</h2>
+    <button onclick="loadBlocks()">Actualiser</button>
+    <div id="blocks"></div>
+  </section>
+
+  <section>
+    <h2>Nouvelle transaction</h2>
+    <form id="txForm">
+      <input id="from" placeholder="From (clé publique)" required />
+      <input id="to" placeholder="To (clé publique)" required />
+      <input id="amount" type="number" placeholder="Montant" required />
+      <textarea id="signature" placeholder="Signature (base64)" required></textarea>
+      <button>Envoyer</button>
+    </form>
+    <p id="txStatus"></p>
+  </section>
+
+  <section>
+    <h2>Mempool</h2>
+    <button onclick="loadMempool()">Actualiser</button>
+    <div id="mempool"></div>
+  </section>
+
+  <section>
+    <h2>Miner un bloc</h2>
+    <button onclick="mine()">Miner maintenant</button>
+    <p id="mineStatus"></p>
+  </section>
+
+  <section>
+    <h2>Générer un Wallet</h2>
+    <button onclick="generateWallet()">Générer</button>
+    <pre id="walletDisplay"></pre>
+  </section>
+
+  <section>
+    <h2>Soldes</h2>
+    <button onclick="loadBalances()">Voir les soldes</button>
+    <div id="balances"></div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+<footer style="text-align: center; margin-top: 2rem; color: #ccc; font-size: 0.9rem;">
+  Projet blockchain développé avec ❤️ par <strong>Meryem Dardouri</strong> – 2025
+</footer>
+
+</html>

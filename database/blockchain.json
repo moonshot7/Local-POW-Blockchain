@@ -1,0 +1,42 @@
+{
+  "name": "uemfBlockchain",
+  "difficulty": 2,
+  "miningInterval": 600,
+  "blockReward": 50,
+  "denom": "uemfCoin",
+  "chain": [
+    {
+      "height": 0,
+      "previousHash": "0",
+      "timestamp": 1749676623699,
+      "transactions": [],
+      "difficulty": 2,
+      "blockReward": 50,
+      "nonce": 0,
+      "miner": null,
+      "hash": "ae61e9884ffdb45c9dc21c4d9e2ef08da29b08545d3d147cf62ad9e54be17341"
+    },
+    {
+      "height": 1,
+      "previousHash": "ae61e9884ffdb45c9dc21c4d9e2ef08da29b08545d3d147cf62ad9e54be17341",
+      "timestamp": 1749676666306,
+      "transactions": [
+        {
+          "fromAddress": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALcJWtZ5NkttDNVEN1/Koty29SlMc9ur\\nfRqszvs58rGOdDOgkCtURbog0mOKI+A8PNzopfFqhJkLRtI6+EQDs9kCAwEAAQ==",
+          "toAddress": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAN4iOwF1GgU1sCQvRMHm4ZAu8TIk3sdI\\nqYxqa5pE7eyn3keZwDv5DKMcp0Vjupw7a5MnbuItAalu2xjwHrmarEkCAwEAAQ==",
+          "amount": 5,
+          "signature": "VkXNZsKFrvxCSgFU6nUv3h/og9gXCw+KIDv7ju87vAtsvkgQJtaLlg250Dg7ilJTCfKSYPuw3vDOX5WSTBV0KQ=="
+        }
+      ],
+      "difficulty": 2,
+      "blockReward": 50,
+      "nonce": 122,
+      "miner": "Mery",
+      "hash": "00ef171214c77726438d560dea4a3b034fcc5eab3b618e823d42bf55091c6fe2"
+    }
+  ],
+  "balances": {
+    "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALcJWtZ5NkttDNVEN1/Koty29SlMc9ur\\nfRqszvs58rGOdDOgkCtURbog0mOKI+A8PNzopfFqhJkLRtI6+EQDs9kCAwEAAQ==": -5,
+    "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAN4iOwF1GgU1sCQvRMHm4ZAu8TIk3sdI\\nqYxqa5pE7eyn3keZwDv5DKMcp0Vjupw7a5MnbuItAalu2xjwHrmarEkCAwEAAQ==": 5
+  }
+}
