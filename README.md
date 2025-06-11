@@ -37,8 +37,8 @@ Local-POW-Blockchain/
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/uemf_proof_of_work_blockchain.git
-cd uemf_proof_of_work_blockchain
+git clone https://github.com/moonshot7/Local-POW-Blockchain.git
+cd Local-POW-Blockchain
 
 ### 2. Install dependencies
 npm install
