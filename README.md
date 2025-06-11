@@ -54,12 +54,15 @@ http://localhost:3000
 ### How to Create a Signed Transaction
 1.Run the signing script:
 node sign.js
+
 2.Paste your private key, from address, to address, and amount.
+
 3.Copy the generated signature.
+
 4.Paste it in the transaction form in the interface.
 
 ---
  Author
-Meryem Dardouri
+### Meryem Dardouri
 Cybersecurity Engineering Student – UEMF 2025
 Project: Blockchain Local Proof-of-Work Implementation
